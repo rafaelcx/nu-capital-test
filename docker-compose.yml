@@ -1,0 +1,7 @@
+services:
+  nu-capital-cli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app

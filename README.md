@@ -4,14 +4,11 @@ A CLI program that calculates taxes on profits or losses from stock market trans
 
 ---
 
-[//]: # (Provisioning using Docker)
+Provisioning using Docker
 
-[//]: # ()
-[//]: # (```)
-
-[//]: # (docker-compose run --rm -it php-cli /bin/bash)
-
-[//]: # (```)
+```
+docker-compose run --rm -it nu-capital-cli /bin/bash
+```
 
 Application execution via normal input or input redirection:
 
