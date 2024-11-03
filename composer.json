@@ -1,0 +1,22 @@
+{
+    "name": "nu.specialist/nu-capital-test",
+    "description": "A CLI program that calculates taxes on profits or losses from stock market transactions",
+    "type": "project",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/src",
+            "Test\\Support\\": "test/support/src"
+        }
+    }
+}
