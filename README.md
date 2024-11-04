@@ -9,10 +9,15 @@ A CLI program that calculates taxes on profits or losses from stock market trans
 **Provisioning using Docker:**
 
 Provisioning should be done running the command below on your terminal. A container
-will be started, and you will jump inside a bash session inside it, where you can interact with 
-the application (execute or run tests) following the next instructions:
+will be started, and you will jump inside a bash session inside it: 
 
 `docker-compose run --rm -it nu-capital-cli /bin/bash`
+
+After jumping inside the container run:
+
+`composer install`
+
+While inside the bash session you can interact with the application (execute it or run tests) following the next instructions
 
 ## Execution
 
